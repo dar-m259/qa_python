@@ -149,4 +149,4 @@ class TestBooksCollector:
 
         result = collector.get_list_of_favorites_books()
 
-        assert name in result
+        assert result == [name]
