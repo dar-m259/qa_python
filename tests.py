@@ -9,7 +9,6 @@ class TestBooksCollector:
 
         collector.add_new_book(name)
         
-        assert name in collector.books_genre
         assert collector.books_genre[name] == ''
 
     def test_set_book_genre_success(self):
